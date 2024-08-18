@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe6f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.quiz-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 320px;
+    border: 2px solid #ff99cc;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #cc0066;
+}
+
+#question {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #cc0066;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+}
+
+.option {
+    background-color: #ff66b2;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.option:hover {
+    background-color: #e60099;
+}
+
+.option.selected {
+    background-color: #ffb3d9;
+}
+
+.option.correct {
+    background-color: #66cc99;
+}
+
+.option.incorrect {
+    background-color: #ff6666;
+}
+
+#next-button {
+    background-color: #cc6699;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#next-button:hover {
+    background-color: #b34d80;
+}
+
+.gif-animado {
+    width: 100px; /* Largura do GIF */
+    height: auto; /* Altura automática para manter a proporção */
+    display: block; /* Exibição em bloco */
+    margin: 10px auto; /* Centralizar o GIF horizontalmente */
+}
+
